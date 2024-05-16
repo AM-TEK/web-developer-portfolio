@@ -63,9 +63,9 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Pet Dogs",
-    description:
-      "This is an app to help users find a pet dog. The dogs are stored in the backend, while the frontend displays the data. The map is a feature to locate pet shops nearby.",
-    tags: ["React", "Next.js", "Go", "Tailwind", "Axios"],
+    // description:
+    //   "This is an app to help users find a pet dog. The dogs are stored in the backend, while the frontend displays the data. The map is a feature to locate pet shops nearby.",
+    // tags: ["React", "Next.js", "Go", "Tailwind", "Axios"],
     imageUrl: petDogsImg,
   },
   {
@@ -75,13 +75,13 @@ export const projectsData = [
     tags: ["React", "Next.js", "Go", "Tailwind", "Axios"],
     imageUrl: vgRankerImg,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
 ] as const;
 
 export const skillsData = [
