@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import petDogsImg from "@/public/petDogs.png";
+import vgRankerImg from "@/public/vgRanker.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,18 +62,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Pet Dogs",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This is an app to help users find a pet dog. The dogs are stored in the backend, while the frontend displays the data. The map is a feature to locate pet shops nearby.",
+    tags: ["React", "Next.js", "Go", "Tailwind", "Axios"],
+    imageUrl: petDogsImg,
   },
   {
-    title: "rmtDev",
+    title: "Video Game Ranker",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An app to rank a list of video games. There is a form to change the list along with drag and drop ability.",
+    tags: ["React", "Next.js", "Go", "Tailwind", "Axios"],
+    imageUrl: vgRankerImg,
   },
   {
     title: "Word Analytics",

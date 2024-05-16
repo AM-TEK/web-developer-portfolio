@@ -77,27 +77,27 @@ export default function SectionDivider() {
       >
         <motion.line
           x1="120"
-          y1="170"
+          y1="30"
           x2="260"
-          y2="30"
+          y2="170"
           stroke="#00cc88"
           variants={draw}
           custom={2.5}
         />
         <motion.line
           x1="220"
-          y1="170"
+          y1="30"
           x2="360"
-          y2="30"
+          y2="170"
           stroke="#ff0055"
           variants={draw}
           custom={3.5}
         />
         <motion.line
           x1="320"
-          y1="170"
+          y1="30"
           x2="460"
-          y2="30"
+          y2="170"
           stroke="#0099ff"
           variants={draw}
           custom={4.5}
